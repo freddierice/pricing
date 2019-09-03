@@ -64,7 +64,7 @@ class Simulator:
 
     def fill_settlements(self):
         """get settlements."""
-        self.eps[:] = np.exp((self.r - 0.5 * self.sigma_sq)*0*self.dts+self.sigma * self.dts_sqrt * np.random.normal(size=self.dts.shape))
+        self.eps[:] = np.exp((self.r - 0.5 * self.sigma_sq)*self.dts+self.sigma * self.dts_sqrt * np.random.normal(size=self.dts.shape))
         s = self.s
         for (i, ep) in enumerate(self.eps):
             s = ep * s
