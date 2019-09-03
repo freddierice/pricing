@@ -38,7 +38,7 @@ class Simulator:
             start_date="08-28-2019",
             end_date="11-20-2020",
             volatility=0.16,
-            risk_free_rate=0.2,
+            risk_free_rate=0.025,
             start_price=394.75,
             acc_level=420.0,
             ko_level=379.0):
