@@ -60,7 +60,7 @@ class Simulator:
         def doit():
             self.fill_settlements()
             return self.european_price()
-        return [doit() for _ in range(0, n)]
+        return np.asfarray([doit() for _ in range(0, n)])
 
     def fill_settlements(self):
         """get settlements."""
