@@ -1,5 +1,5 @@
 more-itertools==7.2.0
-numpy==1.17.1
+numpy==1.22.0
 pandas==0.25.1
 pandas-market-calendars==1.1
 python-dateutil==2.8.0
